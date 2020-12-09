@@ -1,0 +1,35 @@
+.login__main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 200px;
+}
+
+.login__text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #2A52BE;
+    margin-top: 50px;
+}
+
+.login__link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 29.28%;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px; 
+    color: #ffffff;
+    background-color:#A0BFFA;
+    font-size: 38px;
+    line-height: 38px;
+}
