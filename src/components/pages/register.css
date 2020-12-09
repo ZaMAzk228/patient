@@ -1,64 +1,9 @@
-.container{
-    max-width: 1366px;
-    margin: 0 auto;
-    
-}
-
-
 .intro__register{
-    margin-top: 140px;
-    font-size: 30px;
-}
-
-.text__register{
-    margin-top: 30px;
-}
-
-.register{
+    padding-top: 140px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
-    width: 137px;
-    height: 56px;
-
-
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
-
-    color: #2A52BE;
-    margin-top: 50px;
-}
-
-.register__repeat{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 56px;
-    color: #2A52BE;
-}
-
-input[type=password__repeat],[type=password],[type=text]{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items:center;
-    width: 600px;
-    height: 70px;
-    left: 383px;
-    top: 201px;
-    border: none;
-    outline: none;
-    font-size: 25px;
-    padding-left: 40px;
-
-    background: #FFFFFF;
-    border-radius: 30px;
-    margin-top: 10px;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .register__link{

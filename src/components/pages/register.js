@@ -6,25 +6,19 @@ import './register.css';
 const Register = () => {
     return (
         <div className=" intro__register">
-            <div className="container">
-                <div className="main">
-                    <div className="email">
-                        <h1 className="register">Почта</h1>
-                        <input  type="text" name="name" required placeholder="exempel@mail.com"></input>
-                    </div>
-                    <div className="register-password">
-                        <h1 className="register">Пароль</h1>
-                        <input type="password" name="name" required placeholder="введите пароль"></input>
-                    </div>
-                    <div className="register-password2">
-                        <h1 className="register__repeat">Повторите пароль</h1>
-                        <input type="password__repeat" name="name" required placeholder="повторите пароль"></input>
-                    </div>
-                    <div className="link__priem">
-                        <Link to="/priem" className="register__link">Зарегистрироваться</Link>
-                    </div>
-                </div>
+            <div className="login__form-wrap">
+                <label className="login__form-text" htmlFor="register__email">Почта</label>
+                <input className="login__form-input" type="email" required placeholder="example@mail.com" id="register__email" />
             </div>
+            <div className="login__form-wrap">
+                <label className="login__form-text" htmlFor="register__password">Пароль</label>
+                <input className="login__form-input" type="password" required placeholder="********" id="register__password" />
+            </div>
+            <div className="login__form-wrap">
+                <label className="login__form-text" htmlFor="register__password-repeated">Повторите пароль</label>
+                <input className="login__form-input" type="password" required placeholder="********" id="register__password-repeated" />
+            </div>
+            <Link to="/priem" className="register__link">Зарегистрироваться</Link>
         </div>
     )
 }
